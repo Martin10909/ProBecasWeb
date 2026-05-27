@@ -1,0 +1,64 @@
+﻿@model ProBecasW.Models.SolicitudBeca
+
+@{
+    ViewData["Title"] = "Detalle de solicitud";
+}
+
+<h2>Detalle — solicitud #@Model.IdSolicitud</h2>
+<hr />
+
+@{
+    var badgeColor = Model.Resultado switch
+    {
+        "Recomendada" => "success",
+        "En revisión" => "warning",
+        "No recomendada" => "danger",
+        _ => "secondary"
+    };
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <dl class="row">
+            <dt class="col-sm-5">Nombre</dt>
+            <dd class="col-sm-7">@Model.NombreEstudiante</dd>
+
+            <dt class="col-sm-5">RUT</dt>
+            <dd class="col-sm-7">@Model.Rut</dd>
+
+            <dt class="col-sm-5">Carrera</dt>
+            <dd class="col-sm-7">@Model.Carrera</dd>
+
+            <dt class="col-sm-5">Promedio</dt>
+            <dd class="col-sm-7">@Model.PromedioNotas.ToString("F1")</dd>
+
+            <dt class="col-sm-5">Ingreso familiar</dt>
+            <dd class="col-sm-7">$@Model.IngresoFamiliar.ToString("N0")</dd>
+
+            <dt class="col-sm-5">Integrantes familia</dt>
+            <dd class="col-sm-7">@Model.IntegrantesFamilia</dd>
+
+            <dt class="col-sm-5">Situación laboral</dt>
+            <dd class="col-sm-7">@Model.SituacionLaboral</dd>
+
+            <dt class="col-sm-5">Puntaje</dt>
+            <dd class="col-sm-7"><strong>@Model.Puntaje puntos</strong></dd>
+
+            <dt class="col-sm-5">Resultado</dt>
+            <dd class="col-sm-7">
+                <span class="badge bg-@badgeColor fs-6">@Model.Resultado</span>
+            </dd>
+
+            <dt class="col-sm-5">Estado</dt>
+            <dd class="col-sm-7">@Model.EstadoSolicitud</dd>
+
+            <dt class="col-sm-5">Fecha de registro</dt>
+            <dd class="col-sm-7">@Model.FechaSolicitud.ToString("dd/MM/yyyy HH:mm")</dd>
+        </dl>
+    </div>
+</div>
+
+<div class="d-flex gap-2 mt-2">
+    <a asp-action="Edit" asp-route-id="@Model.IdSolicitud" class="btn btn-warning">Editar</a>
+    <a asp-action="Index" class="btn btn-outline-secondary">Volver al listado</a>
+</div>

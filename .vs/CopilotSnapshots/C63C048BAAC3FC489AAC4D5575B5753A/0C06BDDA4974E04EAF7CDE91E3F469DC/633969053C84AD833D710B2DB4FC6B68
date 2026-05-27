@@ -1,0 +1,131 @@
+﻿@model ProBecasW.Models.SolicitudBeca
+
+@{
+    ViewData["Title"] = "Nueva solicitud";
+}
+
+<h2>Nueva solicitud de beca</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-7">
+        <form asp-action="Create" id="formBeca">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="NombreEstudiante" class="form-label"></label>
+                <input asp-for="NombreEstudiante" class="form-control" />
+                <span asp-validation-for="NombreEstudiante" class="text-danger"></span>
+            </div>
+
+            <div class="row">
+                <div class="col mb-3">
+                    <label asp-for="Rut" class="form-label"></label>
+                    <input asp-for="Rut" class="form-control" />
+                    <span asp-validation-for="Rut" class="text-danger"></span>
+                </div>
+                <div class="col mb-3">
+                    <label asp-for="Carrera" class="form-label"></label>
+                    <input asp-for="Carrera" class="form-control" />
+                    <span asp-validation-for="Carrera" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col mb-3">
+                    <label asp-for="PromedioNotas" class="form-label">
+                        Promedio de notas — <strong id="lblSlider">4,0</strong>
+                    </label>
+                    <input type="range" id="sliderPromedio" min="10" max="70" value="40"
+                           class="form-range mb-1"
+                           oninput="actualizarPromedio(this.value)" />
+                    <input asp-for="PromedioNotas" id="PromedioNotas"
+                           class="form-control" type="text"
+                           placeholder="Ej: 5,9 o 5.9" />
+                    <span asp-validation-for="PromedioNotas" class="text-danger"></span>
+                    <div class="d-flex justify-content-between">
+                        <small class="text-muted">1,0</small>
+                        <small class="text-muted">7,0</small>
+                    </div>
+                </div>
+
+                <div class="col mb-3">
+                    <label asp-for="SituacionLaboral" class="form-label"></label>
+                    <select asp-for="SituacionLaboral" class="form-select">
+                        <option value="No trabaja">No trabaja</option>
+                        <option value="Trabaja">Trabaja</option>
+                    </select>
+                    <span asp-validation-for="SituacionLaboral" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col mb-3">
+                    <label asp-for="IngresoFamiliar" class="form-label"></label>
+                    <input asp-for="IngresoFamiliar" class="form-control" min="0" />
+                    <span asp-validation-for="IngresoFamiliar" class="text-danger"></span>
+                </div>
+                <div class="col mb-3">
+                    <label asp-for="IntegrantesFamilia" class="form-label"></label>
+                    <input asp-for="IntegrantesFamilia" class="form-control" min="1" />
+                    <span asp-validation-for="IntegrantesFamilia" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Resultado preliminar (se llena con el botón Calcular) -->
+            <div id="panelResultado" class="alert alert-secondary d-none mb-3">
+                <strong>Puntaje calculado:</strong>
+                <span id="lblPuntaje"></span> puntos —
+                <span id="lblResultado"></span>
+            </div>
+
+            <div class="d-flex gap-2">
+                <button type="button" class="btn btn-secondary" id="btnCalcular">
+                    🔍 Calcular puntaje
+                </button>
+                <button type="submit" class="btn btn-primary">💾 Guardar solicitud</button>
+                <a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.getElementById('btnCalcular').addEventListener('click', async () => {
+            const payload = {
+                promedioNotas:      parseFloat(document.getElementById('PromedioNotas').value) || 0,
+                ingresoFamiliar:    parseInt(document.getElementById('IngresoFamiliar').value) || 0,
+                integrantesFamilia: parseInt(document.getElementById('IntegrantesFamilia').value) || 0,
+                situacionLaboral:   document.getElementById('SituacionLaboral').value
+            };
+
+            try {
+                const res  = await fetch('/api/becas/evaluar', {
+                    method:  'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body:    JSON.stringify(payload)
+                });
+                const data = await res.json();
+
+                document.getElementById('lblPuntaje').textContent   = data.puntaje;
+                document.getElementById('lblResultado').textContent  = data.resultado;
+
+                const panel = document.getElementById('panelResultado');
+                panel.classList.remove('d-none', 'alert-secondary', 'alert-success',
+                                        'alert-warning', 'alert-danger');
+                const colorMap = {
+                    'Recomendada':    'alert-success',
+                    'En revisión':    'alert-warning',
+                    'No recomendada': 'alert-danger'
+                };
+                panel.classList.add(colorMap[data.resultado] ?? 'alert-secondary');
+            } catch (e) {
+                alert('Error al conectar con la API de evaluación.');
+            }
+        });
+    </script>
+}

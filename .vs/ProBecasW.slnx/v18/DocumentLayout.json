@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\models\\solicitudbeca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\models\\solicitudbeca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\models\\evaluacionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\models\\evaluacionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\services\\ibecaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\services\\ibecaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\services\\becasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\services\\becasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\controllers\\becascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\controllers\\becascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\controllers\\becasapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\controllers\\becasapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\data\\appclicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\data\\appclicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\views\\becas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\views\\becas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\views\\becas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\views\\becas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1071128674\\Delate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\views\\becas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\views\\becas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|c:\\users\\admin\\desktop\\probecaswgit-main\\probecasw\\views\\becas\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5616F29F-14CB-5F35-5CFE-E05C895C7247}|ProBecasW\\ProBecasW.csproj|solutionrelative:probecasw\\views\\becas\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ProBecasW\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ProBecasW\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:46:04.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBecaServices.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Services\\IBecaServices.cs",
+              "RelativeDocumentMoniker": "ProBecasW\\Services\\IBecaServices.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Services\\IBecaServices.cs",
+              "RelativeToolTip": "ProBecasW\\Services\\IBecaServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:45:54.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BecasServices.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Services\\BecasServices.cs",
+              "RelativeDocumentMoniker": "ProBecasW\\Services\\BecasServices.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Services\\BecasServices.cs",
+              "RelativeToolTip": "ProBecasW\\Services\\BecasServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:45:49.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BecasApiController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Controllers\\BecasApiController.cs",
+              "RelativeDocumentMoniker": "ProBecasW\\Controllers\\BecasApiController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Controllers\\BecasApiController.cs",
+              "RelativeToolTip": "ProBecasW\\Controllers\\BecasApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:39:18.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Views\\Becas\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "ProBecasW\\Views\\Becas\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Views\\Becas\\Delete.cshtml.cs",
+              "RelativeToolTip": "ProBecasW\\Views\\Becas\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:30:03.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Views\\Becas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProBecasW\\Views\\Becas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Views\\Becas\\Delete.cshtml",
+              "RelativeToolTip": "ProBecasW\\Views\\Becas\\Delete.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T00:29:11.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delate.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1071128674\\Delate.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1071128674\\Delate.cshtml.cs",
+              "ToolTip": "C:\\Users\\admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1071128674\\Delate.cshtml.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1071128674\\Delate.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:29:00.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Views\\Becas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProBecasW\\Views\\Becas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Views\\Becas\\Edit.cshtml",
+              "RelativeToolTip": "ProBecasW\\Views\\Becas\\Edit.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T00:23:35.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Views\\Becas\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProBecasW\\Views\\Becas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Views\\Becas\\Create.cshtml",
+              "RelativeToolTip": "ProBecasW\\Views\\Becas\\Create.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T00:23:28.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SolicitudBeca.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Models\\SolicitudBeca.cs",
+              "RelativeDocumentMoniker": "ProBecasW\\Models\\SolicitudBeca.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Models\\SolicitudBeca.cs",
+              "RelativeToolTip": "ProBecasW\\Models\\SolicitudBeca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:18:34.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EvaluacionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Models\\EvaluacionRequest.cs",
+              "RelativeDocumentMoniker": "ProBecasW\\Models\\EvaluacionRequest.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Models\\EvaluacionRequest.cs",
+              "RelativeToolTip": "ProBecasW\\Models\\EvaluacionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:46:04.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BecasController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Controllers\\BecasController.cs",
+              "RelativeDocumentMoniker": "ProBecasW\\Controllers\\BecasController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Controllers\\BecasController.cs",
+              "RelativeToolTip": "ProBecasW\\Controllers\\BecasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:15:54.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProBecasW\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProBecasW\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:15:52.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppclicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Data\\AppclicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProBecasW\\Data\\AppclicationDbContext.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ProBecasWGIT-main\\ProBecasW\\Data\\AppclicationDbContext.cs",
+              "RelativeToolTip": "ProBecasW\\Data\\AppclicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T00:11:43.825Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

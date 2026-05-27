@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "ProBecasW.Controllers.BecasApiController",
+    "Method": "Evaluar",
+    "RelativePath": "api/becas/evaluar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProBecasW.Models.EvaluacionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

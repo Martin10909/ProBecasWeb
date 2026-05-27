@@ -1,0 +1,69 @@
+﻿@model IEnumerable<ProBecasW.Models.SolicitudBeca>
+
+@{
+    ViewData["Title"] = "Solicitudes de beca";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>Solicitudes de beca</h2>
+    <a asp-action="Create" class="btn btn-primary">+ Nueva solicitud</a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No hay solicitudes registradas aún.</div>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>RUT</th>
+                <th>Carrera</th>
+                <th>Promedio</th>
+                <th>Puntaje</th>
+                <th>Resultado</th>
+                <th>Estado</th>
+                <th>Fecha</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.IdSolicitud</td>
+                    <td>@s.NombreEstudiante</td>
+                    <td>@s.Rut</td>
+                    <td>@s.Carrera</td>
+                    <td>@s.PromedioNotas.ToString("F1")</td>
+                    <td><strong>@s.Puntaje</strong></td>
+                    <td>
+                        @{
+                            var badgeColor = s.Resultado switch
+                            {
+                                "Recomendada" => "success",
+                                "En revisión" => "warning",
+                                "No recomendada" => "danger",
+                                _ => "secondary"
+                            };
+                        }
+                        <span class="badge bg-@badgeColor">@s.Resultado</span>
+                    </td>
+                    <td>@s.EstadoSolicitud</td>
+                    <td>@s.FechaSolicitud.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@s.IdSolicitud"
+                           class="btn btn-sm btn-info text-white">Ver</a>
+                        <a asp-action="Edit" asp-route-id="@s.IdSolicitud"
+                           class="btn btn-sm btn-warning">Editar</a>
+                        <a asp-action="Delete" asp-route-id="@s.IdSolicitud"
+                           class="btn btn-sm btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,36 @@
+﻿@model ProBecasW.Models.SolicitudBeca
+
+@{
+    ViewData["Title"] = "Eliminar solicitud";
+}
+
+<h2>Eliminar solicitud</h2>
+<hr />
+
+<div class="alert alert-danger">
+    ¿Está seguro que desea eliminar la solicitud de
+    <strong>@Model.NombreEstudiante</strong> (RUT: @Model.Rut)?
+    Esta acción no se puede deshacer.
+</div>
+
+<dl class="row col-md-5">
+    <dt class="col-sm-5">Carrera</dt>
+    <dd class="col-sm-7">@Model.Carrera</dd>
+
+    <dt class="col-sm-5">Puntaje</dt>
+    <dd class="col-sm-7">@Model.Puntaje puntos</dd>
+
+    <dt class="col-sm-5">Resultado</dt>
+    <dd class="col-sm-7">@Model.Resultado</dd>
+
+    <dt class="col-sm-5">Estado</dt>
+    <dd class="col-sm-7">@Model.EstadoSolicitud</dd>
+</dl>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="IdSolicitud" />
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-danger">Sí, eliminar</button>
+        <a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a>
+    </div>
+</form>
